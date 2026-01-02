@@ -3,8 +3,6 @@ import cv2
 import numpy as np
 from PIL import Image
 
-# Load model
-model = tf.keras.models.load_model("sorter_model.h5")
 
 IMG_SIZE = 128
 
